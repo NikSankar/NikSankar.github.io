@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Nik's website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <h1>Nikhilesh Sankara Narayanan</h1>
+ </head>
+
+<!-- Dynamically generate email ID -->
+<div class = 'email'>
+    <div class = 'tooltip'>&nbsp<u>?</u>
+        <div class = 'tooltiptext'>Dynamically generated to prevent spam bots</div>
+    </div>
+</div>
+<script> 
+    var username = 'nikhilesh'
+    var domain = 'yahoo.in'
+    element = document.getElementsByClassName('email')[0];
+    var origHTML = element.innerHTML
+    element.innerHTML =  username + '@' + domain + origHTML;
+</script>
+<!-- End Dynamic email generate -->
+
+<!-- <body background=""> -->
+
+
+
+<div class = 'text'>
+    Hi, I'm Nik.
+</div>
+
+<div class = 'contact'>
+    <a href = "https://www.github.com/demonikki">GitHub</a> 
+    / 
+    <a href = "https://www.linkedin.com/in/nikhileshsankar/">LinkedIn</a>
+</div>
+
+</body>
+</html>
