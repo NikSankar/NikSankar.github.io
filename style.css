@@ -53,6 +53,10 @@ html, body {
     color: darkblue;
  }
 
+a {
+  color: silver;
+}
+
  h2 {
      padding-left: 400px;
  }
